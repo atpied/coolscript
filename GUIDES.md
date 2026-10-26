@@ -2,9 +2,9 @@
   <h1>📜 Coolscript Language Guide</h1>
   <p><i>A lightweight, dynamic scripting language designed for simplicity and power.</i></p>
   
-  ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
-  ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
-  ![License](https://img.shields.io/badge/license-MIT-green.svg)
+  ![Version](https://shields.io)
+  ![Platform](https://shields.io)
+  ![License](https://shields.io)
 </div>
 
 ---
@@ -35,30 +35,45 @@ LOCAL pi = 3.14
 
 // The result of a function
 LOCAL luckyNumber = MATH.RANDOM(1, 100)
-💡 Tip: Use + to concatenate strings and variables together.
+```
 
-coolscript
+💡 **Tip:** Use `+` to concatenate strings and variables together.
+
+```coolscript
 LOCAL fullGreeting = 'Hello, ' + myName + '!'
-2. Input & Output
+```
+
+---
+
+## 2. Input & Output
 Interact with the user through the console window.
 
-🖨️ Printing to Console
-coolscript
+### 🖨️ Printing to Console
+```coolscript
 OUTPUT.PRINT('Hello, World!')
 OUTPUT.PRINT('Your lucky number is: ' + luckyNumber)
-⌨️ Reading User Input
-coolscript
+```
+
+### ⌨️ Reading User Input
+```coolscript
 OUTPUT.PRINT('What is your favorite color?')
 LOCAL favoriteColor = OUTPUT.READLINE()
 OUTPUT.PRINT('Wow, ' + favoriteColor + ' is a great color!')
-🎮 Console Control
-Command	Description
-OUTPUT.CLEAR()	Clears the entire console screen.
-OUTPUT.PAUSE()	Pauses the script until the user presses any key.
-3. Math & Random Numbers
+```
+
+### 🎮 Console Control
+
+| Command | Description |
+| :--- | :--- |
+| `OUTPUT.CLEAR()` | Clears the entire console screen. |
+| `OUTPUT.PAUSE()` | Pauses the script until the user presses any key. |
+
+---
+
+## 3. Math & Random Numbers
 Coolscript provides basic math capabilities and a built-in random number generator.
 
-coolscript
+```coolscript
 // Generate a random number between 1 and 10 (inclusive)
 LOCAL diceRoll = MATH.RANDOM(1, 10)
 
@@ -66,16 +81,22 @@ LOCAL diceRoll = MATH.RANDOM(1, 10)
 LOCAL percent = MATH.RANDOM(1, 100)
 
 OUTPUT.PRINT('You rolled a ' + diceRoll)
-4. File Operations
+```
+
+---
+
+## 4. File Operations
 Coolscript can create, read, modify, and delete text files in the same directory as the executable.
 
-Command	Description
-FILE.WRITE(filename, text)	Creates a new file or overwrites an existing one.
-FILE.APPEND(filename, text)	Adds text to the end of a file without erasing it.
-FILE.READ(filename)	Reads the entire file into a variable.
-FILE.DELETE(filename)	Permanently deletes the specified file.
-📝 Example: Writing and Reading
-coolscript
+| Command | Description |
+| :--- | :--- |
+| `FILE.WRITE(filename, text)` | Creates a new file or overwrites an existing one. |
+| `FILE.APPEND(filename, text)` | Adds text to the end of a file without erasing it. |
+| `FILE.READ(filename)` | Reads the entire file into a variable. |
+| `FILE.DELETE(filename)` | Permanently deletes the specified file. |
+
+### 📝 Example: Writing and Reading
+```coolscript
 // Write data
 FILE.WRITE('data.txt', 'Hello, file!')
 
@@ -88,27 +109,39 @@ OUTPUT.PRINT(content)
 
 // Clean up
 FILE.DELETE('data.txt')
-5. System Commands
+```
+
+---
+
+## 5. System Commands
 Run external programs or system commands directly from your script.
 
-coolscript
+```coolscript
 // Open Notepad
 SYSTEM.RUN('notepad.exe')
 
 // Run a system command (e.g., list files in a directory)
 SYSTEM.RUN('dir')
-⚠️ Warning: SYSTEM.RUN executes commands silently. Be careful not to run harmful commands!
+```
 
-6. Comments
-Keep your code readable with comments. The Coolscript engine ignores anything after //.
+⚠️ **Warning:** `SYSTEM.RUN` executes commands silently. Be careful not to run harmful commands!
 
-coolscript
+---
+
+## 6. Comments
+Keep your code readable with comments. The Coolscript engine ignores anything after `//`.
+
+```coolscript
 // This is a single-line comment
 LOCAL x = 10 // This is an inline comment
-7. Full Example: Greeting App
+```
+
+---
+
+## 7. Full Example: Greeting App
 Here is a complete, working example of a small console application that asks for your name, saves it to a file, and greets you.
 
-coolscript
+```coolscript
 // Clear the screen
 OUTPUT.CLEAR()
 
@@ -131,13 +164,19 @@ OUTPUT.PRINT('Your name has been saved to user.txt')
 
 // Wait for the user before closing
 OUTPUT.PAUSE()
-🚀 How to Run
-Open Coolscript Studio.
+```
 
-Write your code in the editor.
+---
 
-Press Build → Compile and run to test it instantly.
+## 🚀 How to Run
+1. Open **Coolscript Studio**.
+2. Write your code in the editor.
+3. Press **Build** → **Compile and run** to test it instantly.
+4. Press **Build** → **Compile and Build to executable** to create a standalone `.exe` file.
 
-Press Build → Compile and Build to executable to create a standalone .exe file.
+---
 
-<div align="center"> <p>Made with ❤️ by Atpied Studios</p> <p><i>(c) 2026. All rights reserved.</i></p> </div> ```
+<div align="center">
+  <p>Made with ❤️ by Atpied Studios</p>
+  <p><i>(c) Atpied Studios 2026. All rights reserved.</i></p>
+</div>
