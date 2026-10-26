@@ -20,3 +20,10 @@ it's cool because it's cool :D
 - add if/else, while and try/catch c#-like things
 - add access to run other executables (not like system)/bat's or other things
 - make him famous and popular (always impossible)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by Atpied Studios</p>
+  <p><i>(c) Atpied Studios 2026. All rights reserved.</i></p>
+</div>
