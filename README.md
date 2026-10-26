@@ -14,3 +14,9 @@ it's cool because it's cool :D
 [Guides](https://github.com/atpied/coolscript/blob/main/GUIDES.md)
 
 [Framework posted on itch](https://atpied.itch.io/coolscript-framework)
+
+# Current points
+- make him faster than C++ ("yeah atpied, it's isn't possible")
+- add if/else, while and try/catch c#-like things
+- add access to run other executables (not like system)/bat's or other things
+- make him famous and popular (always impossible)
