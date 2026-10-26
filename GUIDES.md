@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📜 Coolscript Language Guide</h1>
-  <p><i>A lightweight, dynamic scripting language designed for simplicity and power.</i></p>
+  <p><i>A very cool, but weakest programing language</i></p>
   
   ![Version](https://img.shields.io/badge/version-1.0.0.0-blue.svg)
   ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
