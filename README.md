@@ -13,4 +13,4 @@ it's cool because it's cool :D
 # Main
 [Guides](https://github.com/atpied/coolscript/blob/main/GUIDES.md)
 
-[Download installer on itch](https://atpied.itch.io/coolscript-framework)
+[Framework posted on itch](https://atpied.itch.io/coolscript-framework)
